@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient( to right , #010220 ,#000 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.container{
+    background-image: linear-gradient(to right ,  #010220d3 30% ,#000000c4 )
+    ,url(img2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 640px;
+}
+
+.container:hover{
+    background-image: linear-gradient(to right ,   #010220d3 30% ,transparent )
+    ,url(img2.webp);
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+}
+ul a {
+    border-bottom: 1px solid transparent;
+}
+ul a:hover{
+    border-bottom: 1px solid white;
+}
+.content{
+    width: 60%;
+    margin-top: 50px;
+    color: white;
+    padding: 30px;
+}
+.content h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    font-style: italic;
+    width: 300px ;
+    padding: 20px 0;
+} 
+.content button{
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer; 
+    margin-top: 30px;
+}
+.content button:hover{
+    background-color: cornflowerblue;
+    border-color: antiquewhite;
+    color:antiquewhite ;
+    
+}
